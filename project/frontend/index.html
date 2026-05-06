@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Contact Form</h2><br><br>
+        <body style="background-color: aquamarine;"></body>
+        <style>
+            input,textarea,button{
+                display:block;
+                margin:10px auto;
+            }
+        </style>
+        <style>
+            input,textarea{
+                border-radius: 10px;
+                padding:10px;
+                border:1px solid #ccc;
+                width: 300px;
+            }
+        </style>
+        <form id="form">
+            <input type="text" id="name" placeholder="Name"><br><br>
+            <input type="email" id="email" placeholder="Email"><br><br>
+            <textarea id="message" placeholder="Message"></textarea><br><br>
+            <button type="submit" style="width:150px;height:40px;border-radius: 5px;">Send</button>
+        </form>
+        <p id="result"></p>
+        <script src="script.js"></script>
+    </body>
+</html>
